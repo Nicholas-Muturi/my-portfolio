@@ -1,0 +1,23 @@
+body{
+  /*background-color: #000000;*/
+}
+
+.jumbotron{
+  background-size: cover;
+  position: center;
+}
+
+.name{
+
+
+}
+
+.bottom-panel{
+
+}
+
+ul.bottom-panel li{
+  list-style-type: none;
+  text-align: center;
+  display: inline;
+}
