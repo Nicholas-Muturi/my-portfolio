@@ -1,5 +1,6 @@
 body{
   /*background-color: #000000;*/
+  font-family: sans-serif;
 }
 
 .jumbotron{
@@ -8,16 +9,13 @@ body{
 }
 
 .name{
-
-
-}
-
-.bottom-panel{
-
-}
-
-ul.bottom-panel li{
-  list-style-type: none;
+  color: #ffffff;
+  background-color: #000000;
   text-align: center;
-  display: inline;
+  font-size:30px;
+  padding: 10px;
+}
+.bottom-panel li{
+  display: inline-block;
+  border: 1px;
 }
