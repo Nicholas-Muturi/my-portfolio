@@ -1,0 +1,56 @@
+body{
+  /*background-color: #000000;*/
+  font-family: sans-serif;
+}
+
+.jumbotron{
+  width:100%
+  background-size: cover;
+  position: center;
+}
+
+.name{
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+  font-size:30px;
+  padding: 10px;
+}
+.bottom-panel li{
+  display: inline-block;
+  border: 1px solid black;
+}
+
+*{box-sizing: border-box;}
+
+.container{
+  width: 100%
+  background-color: #dddddd;
+}
+
+.skills{
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+}
+
+.html-skill{
+  width: 50%;
+  background-color: rgb(244, 132, 0);
+}
+.css-skill{
+  width: 50%;
+  background-color: rgb(0, 141, 244);
+}
+.php-skill{
+  width: 50%;
+  background-color: rgb(35, 150, 16);
+}
+.java-skill{
+  width: 50%;
+  background-color: rgb(147, 12, 12);
+}
+.db-skill{
+  width: 50%;
+  background-color: rgb(149, 6, 185);
+}
