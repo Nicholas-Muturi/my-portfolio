@@ -137,12 +137,12 @@ body{
 .card {
   width: 300px;
   position: relative;
-  left: 5%;
+  left: 13%;
   background: #f1f1f1;
   overflow: hidden;
   float: left;
   margin-left: 2%;
-  margin-top: 10px;
+  margin-top: 25px;
   box-shadow: 0 0 20px rgba(92, 86, 86, 0.79);
 }
 
@@ -160,14 +160,15 @@ body{
   overflow: hidden;
 }
 .section {
-  width: 200px;
+  width: 250px;
 }
 .section h4 {
   width: 200px;
   color: black;
 }
 .section p {
-  width: 200px;
+  width: 250px;
+  height: 80px;
   margin: 15px 0;
   color: black;
 }
@@ -180,6 +181,7 @@ body{
   display: block;
   margin: 0 0 0 30px;
   text-decoration: none;
+  color: black;
 }
 
 .section .link_btn:hover {
@@ -203,4 +205,14 @@ body{
 .contacts li a{
   font-size: 50px;
   color: white;
+}
+
+.contacts .fa-google-plus:hover{
+  color:  #d34836;
+}
+.contacts .fa-facebook-square:hover{
+  color:  #3B5998;
+}
+.contacts .fa-linkedin:hover{
+  color:  #0077B5;
 }
