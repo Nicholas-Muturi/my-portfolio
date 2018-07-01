@@ -3,6 +3,14 @@ margin: 0px;
 padding: 0px;
 }
 
+body{
+  background: rgb(0, 0, 0);
+  font-family: fantasy;
+  color: white;
+  background-image: url("images/jumbotron.jpg");
+  background-color:
+}
+
 /*Navigation panel*/
 #header {
   margin: auto;
@@ -60,18 +68,29 @@ padding: 0px;
   margin-bottom: 30px;
 }
 
-/*Body Section*/
+/*About Me Section*/
 .aboutme {
-  background: rgb(132, 178, 208);
-  padding: 10px 0 10px 0;
+  padding: 50px 0 50px 0;
   font-size: 22px;
   text-align: center;
+}
+.aboutme .education{
+  float: left;
+  text-align: right;
+  margin-left: 50px;
+  padding-bottom: 50px;
+}
+.aboutme .opinion_me{
+  float: right;
+  text-align: center;
+  padding-right: 30px;
+  padding-bottom: 50px;
 }
 
 /*Skill Section*/
 .skills {
-  background: rgb(252, 206, 144);
-  padding: 10px 0 10px 0;
+  clear: both;
+  padding: 50px 0 50px 0;
   font-size: 22px;
 }
 
@@ -110,8 +129,7 @@ padding: 0px;
 /*Project Section*/
 .projects {
   width: 100%;
-  background: rgb(42, 52, 139);
-  padding: 10px 0 10px 0;
+  padding: 50px 0 50px 0;
   font-size: 22px;
   float: left;
 }
@@ -124,8 +142,8 @@ padding: 0px;
   overflow: hidden;
   float: left;
   margin-left: 2%;
-  margin-top: 5px;
-  /*box-shadow: 0 0 30px rgba(92, 86, 86, 0.79);*/
+  margin-top: 10px;
+  box-shadow: 0 0 20px rgba(92, 86, 86, 0.79);
 }
 
 .card-header {
@@ -142,27 +160,47 @@ padding: 0px;
   overflow: hidden;
 }
 .section {
-  width: 100px;
+  width: 200px;
+}
+.section h4 {
+  width: 200px;
+  color: black;
 }
 .section p {
   width: 200px;
   margin: 15px 0;
+  color: black;
 }
 .section .link_btn {
-  width: 100px;
-  background: rgb(45, 108, 230);
+  width: 200px;
+  background: rgba(0, 71, 255, 0.68);
   border-radius: 12px;
   text-align: center;
   padding: 4px 0;
   display: block;
-  margin: 0 0 0 75px;
+  margin: 0 0 0 30px;
+  text-decoration: none;
+}
+
+.section .link_btn:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 /*Contact Section*/
 .contacts {
-  background: rgb(143, 47, 47);
-  padding: 10px 0 10px 0;
+  padding: 50px 0 50px 0;
   font-size: 22px;
   text-align: center;
   clear: both;
+}
+.contacts li{
+  list-style: none;
+  display: inline-block;
+  margin: 15px 0 0 20px;
+
+}
+.contacts li a{
+  font-size: 50px;
+  color: white;
 }
