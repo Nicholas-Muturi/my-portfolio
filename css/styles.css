@@ -55,9 +55,9 @@ body{
   float: left;
   color: white;
   font-size: 25px;
-  font-family: arial;
+  font-family: fantasy;
   margin-top: 20px;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 /*Welcome Image*/
@@ -117,12 +117,10 @@ body{
   margin: 0 200px 5px 200px;
   padding: 4px;
   box-sizing: border-box;
-  border: 1px solid #0fffb7;
   border-radius: 2px;
 }
 
 .lvl{
-  background: #0fffb7;
   height: 5px;
 }
 
@@ -143,7 +141,11 @@ body{
   float: left;
   margin-left: 2%;
   margin-top: 25px;
-  box-shadow: 0 0 20px rgba(92, 86, 86, 0.79);
+  box-shadow: 3px 3px 15px rgba(92, 86, 86, 0.79);
+}
+
+.card:hover{
+  box-shadow: 0 0 40px rgba(92, 86, 86, 0.85);
 }
 
 .card-header {
