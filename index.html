@@ -3,86 +3,157 @@
 <head>
   <title>My Portfolio</title>
   <link href="css/styles.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 </head>
 <body>
-  <div class="jumbotron">
-    <img src="images/jumbotron.jpg" alt="Image of Nicholas Muturi">
-  </div>
-  <hr>
-  <div class="name">
-    <p>I am Nicholas Muturi</p>
-  </div>
-  <hr>
-  <div class="bottom-panel">
-    <ul>
+
+  <div id="header">
+    <div class="logo"> <p>Nicholas Muturi</p> </div>
+    <ul id="navbar">
+      <li><a href="#">Home</a></li>
       <li><a href="#aboutme">About me</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skill">Skills</a></li>
+      <li><a href="#project">Projects</a></li>
       <li><a href="#contact">Contacts</a></li>
     </ul>
   </div>
 
-  <div class="content">
-    <h2 id="aboutme"><u>About me</u></h2>
-      <h3>Education</h3>
-      <p><strong><i>Primary school:</i></strong> Thomas Burke primary located in Buruburu<br>
-           Years: 2002 - 2010<br>
-           KCPE results: 374 marks </p>
-      <p><strong><i>Secondary school:</i></strong> St.Mary's Boys High School<br>
-           Years: 2011-2014<br>
-           KCSE results: B+ </p>
-      <p><strong><i>University:</i></strong> Catholic University of Eastern Africa<br>
-           Years: 2015-Current<br>
-           Degree: Bsc.Computer Science</p>
-      <br>
-
-      <h3>Why Programming?</h3>
-      <p> I decided to major in programming as I like coding and solving problems through code.</p>
-
-      <h3>Hobbies</h3>
-      <p> Listening to music & music production, Gaming, </p>
-
-    <hr>
-    <h2 id="skills"><u>Skills</u></h2>
-    <p>Html</p>
-    <div class="container">
-      <div class = "html-skill">50%</div>
-    </div>
-    <p>Css</p>
-    <div class="container">
-      <div class = "css-skill">50%</div>
-    </div>
-    <p>Php</p>
-    <div class="container">
-      <div class = "php-skill">50%</div>
-    </div>
-    <p>Java/Android</p>
-    <div class="container">
-      <div class = "java-skill">50%</div>
-    </div>
-    <p>Database</p>
-    <div class="container">
-      <div class = "db-skill">50%</div>
-    </div>
-
-    <hr>
-    <h2 id="projects"><u>Projects</u></h2>
-    <p>
-        <ul>
-          <li><a href="https://github.com/Nicholas-Muturi/my-first-website">My first Website</a></li>
-          <li><a href="https://github.com/Nicholas-Muturi/hello-world">Hello World</a></li>
-        </ul>
-    </p>
-
-    <hr>
-    <h2 id="contact"><u>Contacts</u></h2>
-    <p>You can contact me via:</p>
-      <ul>
-        <li><a href="http://google.com">Google</a><li>
-        <li><a href="http://Facebook.com">Facebook</a><li>
-        <li><a href="http://linkedIn.com">LinkedIn</a><li>
-      </ul>
-
+  <div class="jumbotron">
+    <img src="images/jumbotron.jpg" alt="Image of Nicholas">
   </div>
+
+<!--About Me Section-->
+  <div class="aboutme">
+    <h2 id="aboutme"><u>About Me</u></h2>
+    <div class="education">
+      <h3 style="text-align: center;">Education</h3>
+      <p><strong><i>Primary school:</i></strong> Thomas Burke primary located in Buruburu<br>
+             Years: 2002 - 2010<br>
+             KCPE results: 374 marks </p>
+             <br>
+      <p><strong><i>Secondary school:</i></strong> St.Mary's Boys High School<br>
+             Years: 2011-2014<br>
+             KCSE results: B+ </p>
+             <br>
+      <p><strong><i>University:</i></strong> Catholic University of Eastern Africa<br>
+             Years: 2015-Current<br>
+             Degree: Bsc.Computer Science</p>
+    </div>
+    <br>
+    <div class="opinion_me">
+      <h3 style="text-align: center;">Why Programming?</h3>
+      <p> I decided to major in programming since I enjoy coding and solving problems.</p>
+      <br>
+      <h3 style="text-align: center;">Interests & Hobbies</h3>
+      <p> Listening to music & music production, gaming, swimming, reading novels, travelling and meeting new people </p>
+    </div>
+  </div>
+
+<!--Skills Section-->
+  <div class="skills">
+    <h2 id="skill" style="text-align: center;"><u>Skills</u></h2>
+    <div class="skillbox">
+      <p>Html</p>
+      <p>70%</p>
+      <div class = "skill_level" style="border: 1px solid rgba(232, 104, 0, 0.9);">
+        <div class = "lvl" style="background:rgb(232, 104, 0); width: 70%;"></div>
+      </div>
+    </div>
+    <div class="skillbox">
+      <p>Css</p>
+      <p>65%</p>
+      <div class = "skill_level" style="border: 1px solid rgb(0, 71, 255);">
+        <div class = "lvl" style="background:rgb(0, 71, 255);; width: 65%;"></div>
+      </div>
+    </div>
+    <div class="skillbox">
+      <p>Php</p>
+      <p>50%</p>
+      <div class = "skill_level" style="border: 1px solid rgb(157, 15, 6);">
+        <div class = "lvl" style="background:rgb(157, 15, 6); width: 50%;"></div>
+      </div>
+    </div>
+    <div class="skillbox">
+      <p>Wordpress</p>
+      <p>50%</p>
+      <div class = "skill_level" style="border: 1px solid rgba(4, 169, 213, 1);">
+        <div class = "lvl" style="background:rgba(4, 169, 213, 1); width: 50%;"></div>
+      </div>
+    </div>
+    <div class="skillbox">
+      <p>Database</p>
+      <p>80%</p>
+      <div class = "skill_level" style="border: 1px solid rgb(41, 136, 2);">
+        <div class = "lvl" style="background:rgb(41, 136, 2); width: 80%;"></div>
+      </div>
+    </div>
+  </div>
+
+<!--Projects Section-->
+  <div class="projects">
+    <h2 id="project" style="text-align: center;"><u>Projects</u></h2>
+      <div class="card">
+        <div class="card-header">
+          <img src="images/projects.png" alt="project image">
+        </div>
+        <div class="card_container">
+          <div class="section">
+            <h4>Hello World</h4>
+            <p>"Hello world" is an introduction to making websites using html.</p>
+            <a class="link_btn" href="https://github.com/Nicholas-Muturi/hello-world">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <img src="images/projects.png" alt="project image">
+        </div>
+        <div class="card_container">
+          <div class="section">
+            <h4>My first website</h4>
+            <p> Website used to follow along with the Moringa LMS content.</p>
+            <a class="link_btn" href="https://github.com/Nicholas-Muturi/my-first-website">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <img src="images/projects.png" alt="project image">
+        </div>
+        <div class="card_container">
+          <div class="section">
+            <h4>Project</h4>
+            <p>Under Construction</p>
+            <!--<a class="link_btn" href="#">View Project</a>-->
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <img src="images/projects.png" alt="project image">
+        </div>
+        <div class="card_container">
+          <div class="section">
+            <h4>Project</h4>
+            <p>Under Construction</p>
+            <!--<a class="link_btn" href="#">View Project</a>-->
+          </div>
+        </div>
+      </div>
+  </div>
+
+<!--Contact Me Section-->
+  <div class="contacts">
+    <h2 id="contact"><u>Contacts</u></h2>
+      <ul>
+        <li><a href="https://plus.google.com/118105912072847881616"><i class="fab fa-google-plus"></i></a><li>
+        <li><a href="https://www.facebook.com/niqoz"><i class="fab fa-facebook-square"></i></a><li>
+        <li><a href="https://www.linkedin.com/in/nicholas-muturi-36ba54151"/><i class="fab fa-linkedin"></i></a><li>
+      </ul>
+  </div>
+
 </body>
 </html>
