@@ -12,6 +12,9 @@ This is my personal portfolio. It gives one a complete overview on who I am as a
 * html
 * css
 
+## Live demo
+https://github.com/Nicholas-Muturi/my-portfolio
+
 ## Contact Details
 [LinkedIn](https://www.linkedin.com/in/nicholas-muturi)
 [Gmail](nicholasmuturi1@gmail.com)
