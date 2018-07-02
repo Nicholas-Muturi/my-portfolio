@@ -66,6 +66,7 @@ body{
   margin-left: 320px;
   margin-right: auto;
   margin-bottom: 30px;
+  max-width: 100%;
 }
 
 /*About Me Section*/
@@ -74,6 +75,11 @@ body{
   font-size: 22px;
   text-align: center;
 }
+
+.aboutme h3{
+  text-align: center;
+}
+
 .aboutme .education{
   float: left;
   text-align: right;
@@ -81,7 +87,6 @@ body{
   padding-bottom: 50px;
 }
 .aboutme .opinion_me{
-  float: right;
   text-align: center;
   padding-right: 30px;
   padding-bottom: 50px;
@@ -92,6 +97,10 @@ body{
   clear: both;
   padding: 50px 0 50px 0;
   font-size: 22px;
+}
+
+.skills h2{
+  text-align: center;
 }
 
 .skillbox{
@@ -112,16 +121,79 @@ body{
   top: -30px;
 }
 
-.skill_level{
+.html_skill_level{
   background: rgba(39, 40, 39, 0.8);
   margin: 0 200px 5px 200px;
   padding: 4px;
   box-sizing: border-box;
+  border: 1px solid rgba(232, 104, 0, 0.9);
   border-radius: 2px;
 }
 
-.lvl{
+.css_skill_level{
+  background: rgba(39, 40, 39, 0.8);
+  margin: 0 200px 5px 200px;
+  padding: 4px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 71, 255);
+  border-radius: 2px;
+}
+
+.php_skill_level{
+  background: rgba(39, 40, 39, 0.8);
+  margin: 0 200px 5px 200px;
+  padding: 4px;
+  box-sizing: border-box;
+  border: 1px solid rgb(157, 15, 6);
+  border-radius: 2px;
+}
+
+.wp_skill_level{
+  background: rgba(39, 40, 39, 0.8);
+  margin: 0 200px 5px 200px;
+  padding: 4px;
+  box-sizing: border-box;
+  border: 1px solid rgba(4, 169, 213, 1);
+  border-radius: 2px;
+}
+
+.db_skill_level{
+  background: rgba(39, 40, 39, 0.8);
+  margin: 0 200px 5px 200px;
+  padding: 4px;
+  box-sizing: border-box;
+  border: 1px solid rgb(41, 136, 2);
+  border-radius: 2px;
+}
+
+.html_lvl{
   height: 5px;
+  background:rgb(232, 104, 0);
+  width: 70%;
+}
+
+.css_lvl{
+  height: 5px;
+  background:rgb(0, 71, 255);
+  width: 65%;
+}
+
+.php_lvl{
+  height: 5px;
+  background:rgb(157, 15, 6);
+  width: 50%;
+}
+
+.wp_lvl{
+  height: 5px;
+  background:rgba(4, 169, 213, 1);
+  width: 50%;
+}
+
+.db_lvl{
+  height: 5px;
+  background:rgb(41, 136, 2);
+  width: 80%;
 }
 
 /*Project Section*/
@@ -130,6 +202,10 @@ body{
   padding: 50px 0 50px 0;
   font-size: 22px;
   float: left;
+}
+
+.projects h2 {
+  text-align: center;
 }
 
 .card {
