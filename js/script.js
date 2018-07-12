@@ -16,7 +16,7 @@ $(document).ready(function(){
   var timeDuration = 2500;
   $(".chart#html_lvl").easyPieChart({
     size: 180,
-    barColor: '#ee6400',
+    barColor: '#ff6b00',
     lineWidth: 7,
     scaleColor: false,
     animate: {
@@ -26,7 +26,7 @@ $(document).ready(function(){
   });
   $(".chart#js_lvl").easyPieChart({
     size: 180,
-    barColor: '#37c605',
+    barColor: '#3fe903',
     lineWidth: 7,
     scaleColor: false,
     animate: {
@@ -36,7 +36,7 @@ $(document).ready(function(){
   });
   $(".chart#css_lvl").easyPieChart({
     size: 180,
-    barColor: '#d71111',
+    barColor: '#f00000',
     lineWidth: 7,
     scaleColor: false,
     animate: {
@@ -46,7 +46,7 @@ $(document).ready(function(){
   });
   $(".chart#bootstrap_lvl").easyPieChart({
     size: 180,
-    barColor: '#0085ff',
+    barColor: '#00c2ff',
     lineWidth: 7,
     scaleColor: false,
     animate: {
