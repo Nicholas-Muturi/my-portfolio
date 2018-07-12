@@ -1,10 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body{
   font-family: "Philosopher";
   background: black;
 }
 
+body p{
+  font-size: 18px;
+}
+
 hr {
-  background: rgb(163, 163, 163, 0.2);
+  background: rgb(163, 163, 163, 0.1);
 }
 
 .jumbotron {
@@ -19,6 +28,7 @@ hr {
   max-height: 100%;
 }
 
+
 /* Intoduction Section */
 .introduction-section {
   margin: 0;
@@ -30,7 +40,7 @@ hr {
 
 #myName {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .title {
@@ -47,15 +57,14 @@ hr {
 }
 
 .intro-section-3 {
-  border-left: 0.5px solid rgb(163, 163, 163, 0.5);
+  border-left: 0.5px solid rgb(163, 163, 163, 0.2);
 }
 /* End of Intoduction Section */
-
 
 /* Skills Section */
 .skill-section {
   margin: 0;
-  padding: 2em;
+  padding: 20px;
   text-align: center;
   color: #C5C6C7;
   background: #0B0C10;
@@ -88,13 +97,12 @@ hr {
   margin: 0;
   padding: 10px;
   background: #0B0C10;
-
 }
 .project-section h3{
   margin: 15px 0 5px 0;
   text-align: center;
 }
-.project-section p{
+.project-section #descr{
   margin: 0 0 30px 0;
   text-align: center;
   color: #C5C6C7
@@ -104,6 +112,7 @@ hr {
   padding: 0 0 2em 0;
   width: 23rem;
   border-radius: 2px;
+  background: #edeaea;
 }
 
 .card-title {
