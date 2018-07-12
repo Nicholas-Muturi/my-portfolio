@@ -44,17 +44,23 @@
 /* Skills Section */
 .skill-section {
   margin: 0;
-  padding: 0;
+  padding: 2em;
   text-align: center;
 }
 
 .box .chart{
   position: relative;
-  margin: 0 auto;
+  margin: 2em auto;
+  padding-top: 1em;
   text-align: center;
   font-size: 30px;
   line-height: 110px;
-  width: 110px;
+  width: 190px;
   height: 100px;
+}
+.box canvas{
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 /* End of Section */
