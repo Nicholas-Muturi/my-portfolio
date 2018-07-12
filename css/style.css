@@ -86,27 +86,44 @@
   text-align: center;
 }
 .project-section .card {
-  margin: 0 auto 0 auto;
-  padding: 0;
+  margin: 0 auto 2em auto;
+  padding: 0 0 20px 0;
   width: 23rem;
+  border-radius: 2px;
 }
+
 .card-title {
-  margin-left: 5px;
+  text-align: center;
 }
 .card-subtitle {
+  text-align: center;
   font-weight: lighter;
   margin-left: 5px;
 }
 .card-body .btn{
   width: 50%;
   margin-left: 90px;
+  background: rgb(12, 136, 250);
+  color: white;
+}
+
+.card-body .btn:hover{
+  background: rgb(12, 58, 250);
+  color: white;
 }
 
 .card-title:hover{
+  transition: 0.5s;
   font-weight: bold;
   margin-left: 5px;
   cursor: pointer;
-  pointer-events: visiblePainted;
 }
 
-/**/
+.proj1Body, .proj2Body, .proj3Body, .proj4Body {
+  display: none;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 5px rgb(12, 136, 250);
+}
+/* End of skills section*/
