@@ -10,6 +10,7 @@
   max-height: 100%;
 }
 
+/* Intoduction Section */
 .introduction-section {
   margin: 0;
   padding: 2em;
@@ -37,3 +38,23 @@
 .intro-section-3 {
   border-left: 0.5px solid rgb(163, 163, 163, 0.5);
 }
+/* End of Intoduction Section */
+
+
+/* Skills Section */
+.skill-section {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.box .chart{
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  line-height: 110px;
+  width: 110px;
+  height: 100px;
+}
+/* End of Section */
