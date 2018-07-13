@@ -1,5 +1,10 @@
 $(document).ready(function(){
 
+  $(".navbar a").click(function(){
+    $(".navbar a").removeClass("active");
+    $(this).addClass("active");
+  });
+
   $(".card .proj1").click(function(){
     $(".proj1Body").slideToggle("slow");
   });

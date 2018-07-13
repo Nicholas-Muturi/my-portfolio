@@ -29,6 +29,34 @@ hr {
 }
 
 
+/*navbar*/
+.navbar {
+  background: #5debe0;
+  text-align: right;
+}
+
+.navbar-text {
+  font-size: 20px;
+  margin-left: 1em;
+}
+.nav-item a{
+  margin-left: 10px;
+  font-size: 18px;
+  color: #0B0C10;
+}
+.nav-item a:hover{
+  background: rgba(11, 12, 17, 0.91);
+  border-radius: 2px;
+  color: #D2D5D7;
+}
+
+ .navbar a.active{
+  background: #0B0C10;
+  border-radius: 2px;
+  color: #D2D5D7;
+}
+/*end of navbar*/
+
 /* Intoduction Section */
 .introduction-section {
   margin: 0;
