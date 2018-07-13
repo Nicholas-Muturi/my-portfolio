@@ -34,8 +34,9 @@ hr {
   margin: 0;
   padding: 2em;
   background: #0B0C10;
-  color: #C5C6C7;
+  color: #D2D5D7;
   text-align: center;
+
 }
 
 #myName {
@@ -66,7 +67,7 @@ hr {
   margin: 0;
   padding: 20px;
   text-align: center;
-  color: #C5C6C7;
+  color: #D2D5D7;
   background: #0B0C10;
 }
 
@@ -105,7 +106,7 @@ hr {
 .project-section #descr{
   margin: 0 0 30px 0;
   text-align: center;
-  color: #C5C6C7
+  color: #D2D5D7
 }
 .project-section .card {
   margin: 0 auto 3em auto;
@@ -148,6 +149,50 @@ hr {
 
 .card:hover {
   box-shadow: 0px 0px 30px #66FCF1;
+}
+
+@media only screen and (max-width:1200px ){
+  .project-section .card {
+    margin: 0 auto 3em auto;
+    padding: 0 0 2em 0;
+    width: 13em;
+    border-radius: 2px;
+    background: #edeaea;
+  }
+  .card-body .btn{
+    width: 100%;
+    margin-left: 0px;
+    background: rgb(12, 136, 250);
+    color: white;
+  }
+}
+
+@media only screen and (max-width:950px ){
+  .project-section .card {
+    margin: 0 auto 3em auto;
+    padding: 0 0 2em 0;
+    width: 10em;
+    border-radius: 2px;
+    background: #edeaea;
+  }
+
+  .card-body .btn{
+    width: 100%;
+    margin-left: 0px;
+    background: rgb(12, 136, 250);
+    color: white;
+  }
+
+}
+@media only screen and (max-width:575px ){
+  .project-section .card {
+    margin: 0 auto 3em auto;
+    padding: 0 0 2em 0;
+    width: 23em;
+    border-radius: 2px;
+    background: #edeaea;
+  }
+
 }
 /* End of skills section*/
 
