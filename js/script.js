@@ -13,7 +13,7 @@ $(document).ready(function(){
     $(".proj4Body").slideToggle("slow");
   });
 
-  var timeDuration = 2500;
+  var timeDuration = 5000;
   $(".chart#html_lvl").easyPieChart({
     size: 180,
     barColor: '#ff6b00',
